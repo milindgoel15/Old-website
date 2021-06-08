@@ -3,11 +3,12 @@
 } */
 
 body {
-    background-color: #202124;
-    background-image: url(images/BG.jpg);
+    background-color: #202124; /*just a random bg*/
+    background-image: url(images/BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 .container {

@@ -3,8 +3,8 @@
 } */
 
 body {
-    background-color: #202124; /*just a random bg*/
-    background-image: url(images/BG.png);
+    background-color: #141516; /*just a random bg*/
+    /* background-image: url(images/BG.png); */
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
@@ -19,7 +19,7 @@ body {
 
 header {
     width: 600px;
-    background-color: rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.062);
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +48,9 @@ main {
     text-decoration: none;
 }
 
+main a {
+    text-decoration: underline;
+}
 /* footer {
     width: 600px;
     background-color: rgba(0, 0, 0, 0.123);
@@ -70,10 +73,10 @@ p {
     color: azure;
 }
 
-a {
+/* a {
     color: azure;
     text-decoration: none;
-}
+} */
 
 /* footer a {
     text-decoration: none;

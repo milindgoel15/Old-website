@@ -17,7 +17,7 @@ body {
     width: 1024px;
 }
 
-header {
+/* header {
     width: 600px;
     background-color: rgba(0, 0, 0, 0.062);
     font-size: 20px;
@@ -34,7 +34,7 @@ header a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
 
 main {
     height: 400px;
@@ -51,9 +51,10 @@ main {
 main a {
     text-decoration: underline;
 }
-/* footer {
+
+footer {
     width: 600px;
-    background-color: rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.048);
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -61,7 +62,7 @@ main a {
     padding-bottom: 14px;
     color: azure;
     text-align: center;
-} */
+}
 
 h1 {
     font-size: 60px;
@@ -73,14 +74,14 @@ p {
     color: azure;
 }
 
-/* a {
+a {
     color: azure;
-    text-decoration: none;
-} */
+    text-decoration: red;
+}
 
-/* footer a {
+footer a {
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
-} */
+}

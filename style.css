@@ -16,25 +16,6 @@ body {
     width: 1024px;
 }
 
-/* header {
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0.062);
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    color: azure;
-    text-align: center;
-}
-
-header a {
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
-
 main {
     height: 400px;
     margin-left: auto;
@@ -51,24 +32,69 @@ main a {
     text-decoration: underline;
 }
 
-footer {
-    width: 600px;
-    background-color: rgba(0, 0, 0, 0.048);
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    color: azure;
+.buttons {
     text-align: center;
+    margin-top: 10px;
 }
 
-footer a {
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+form {
+    display: flex;
+    display:inline-block;
 }
+.action {
+    align-items: center;
+}
+.btn{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn1,.btn2{
+    color: #3498db;
+  }
+  .btn3,.btn4{
+    color: #3498db;
+  }
+  .btn1:hover,.btn2:hover{
+    color: #fff;
+  }
+  .btn3:hover,.btn4:hover{
+    color: #fff;
+  }
+  .btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+  }
+  .btn1::before,.btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+  }
+  .btn2::before,.btn4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+  }
+  .btn3::before,.btn4::before{
+    height: 0%;
+  }
+  .btn1:hover::before,.btn2:hover::before{
+    height: 180%;
+  }
+  .btn3:hover::before,.btn4:hover::before{
+    height: 180%;
+  }
 
 h1 {
     font-size: 60px;

@@ -8,7 +8,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-    
 }
 
 .container {
@@ -64,6 +63,13 @@ footer {
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 h1 {
     font-size: 60px;
     color: azure;
@@ -77,11 +83,4 @@ p {
 a {
     color: azure;
     text-decoration: red;
-}
-
-footer a {
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
 }

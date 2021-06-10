@@ -44,7 +44,7 @@ form {
 .action {
     align-items: center;
 }
-.btn{
+.btn {
     border: 1px solid #3498db;
     background: none;
     padding: 10px 20px;
@@ -52,11 +52,12 @@ form {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     margin: 10px;
-    transition: 0.8s;
+    transition: 1.4s;
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
   }
-  .btn1,.btn2{
+  .btn1,.btn2 {
     color: #3498db;
   }
   .btn3,.btn4{

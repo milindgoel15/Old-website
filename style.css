@@ -17,7 +17,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
@@ -45,7 +45,7 @@ form {
     background: none;
     padding: 10px 20px;
     font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Rubik', sans-serif;
     cursor: pointer;
     margin: 10px;
     transition: 1.4s;

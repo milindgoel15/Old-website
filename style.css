@@ -18,14 +18,10 @@ main {
     margin-right: auto;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-left: 240px;
     padding-right: 240px;
     text-decoration: none;
-}
-
-main a {
-    text-decoration: underline;
 }
 
 .buttons {
